@@ -1,0 +1,319 @@
+question,question_type,ground_truth,answer,relevant_chunks,retrieved_chunks,retrieval_s,generation_s,total_s,context_relevance,answer_relevance,faithfulness,coherence,correctness,judge_comment,precision_at_1,recall_at_1,ndcg_at_1,hit_rate_at_1,precision_at_3,recall_at_3,ndcg_at_3,hit_rate_at_3,precision_at_5,recall_at_5,ndcg_at_5,hit_rate_at_5,mrr
+"According to the Act, what is the primary purpose of registration authorities registering persons residing in their jurisdiction?",direct,To identify residents and their places of residence and verify this information.,"Sorry, the information requested is not available in the source documents.
+
+Is there anything else you need to know?",[1],"[54, 22, 25, 23, 27]",3.0278809000737965,0.7812065999023616,3.809087499976158,1,2,5,5,1,Context lacks the answer; model correctly identifies this but fails to provide the ground truth.,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Which legal provision designates registration authorities and what are their main tasks?,multi_chunk,"They are designated by federal state law and must register residents, keep population registers, provide information to other bodies, and process personal data only as permitted by law.","Sorry, the information requested is not available in the source documents.
+
+Is there anything else you need to know?","[0, 1]","[28, 25, 29, 16, 30]",0.5504742998164147,0.6825965000316501,1.2330707998480648,1,2,5,5,1,Context lacks specific legal provisions for designation and tasks; answer incorrectly claims unavailability.,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+What penalty does the Act impose on a registration authority that fails to update a resident's address within 24 hours?,unanswerable,The information is not available in the provided document.,"Based on the provided context, there is no information regarding a penalty for a registration authority that fails to update a resident's address within 24 hours. 
+
+The context does detail administrative offences and fines for individuals, suppliers of residences, or other bodies who fail to meet registration requirements (under Section 54), but it does not specify any penalties or timelines of 24 hours applicable to the registration authorities themselves.
+
+Therefore, the requested information is not available in the source documents.
+
+***
+
+**Source:**
+* Federal Act on Registration (Bundesmeldegesetz – BMG)
+
+***
+
+Please let me know if there is anything else you need to know or if you have any other questions regarding these legal provisions. I would be happy to help!",[],"[22, 18, 54, 56, 27]",2.90732689993456,3.8822826000396162,6.789609499974176,1,5,5,5,5,Correctly identifies missing info; context lacks specific penalty details.,,,,,,,,,,,,,
+What confidentiality obligations do employees of registration authorities have regarding personal data?,direct,"They may not process personal data without authorization, must be informed of their obligations, agree in writing to keep registration data confidential, and this duty continues after employment ends.","Based on the provided context, there is no information regarding the specific confidentiality obligations of employees of registration authorities. 
+
+Sorry, the information requested is not available in the source documents.
+
+If you have any other questions regarding the Federal Act on Registration (such as registration certificates, electronic registration, or special registration requirements for hospitals), please feel free to ask. I would be happy to help you!",[6],"[16, 23, 32, 25, 41]",0.5287841998506337,1.1092534000054002,1.638037599856034,1,5,5,5,1,"Context lacked info, but answer failed to match reference ground truth.",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+What fines are imposed for non‑compliance with the data accuracy obligations in the population register?,unanswerable,The document does not provide information about fines for non‑compliance with data accuracy obligations.,"Based on the provided context from the Federal Act on Registration (Bundesmeldegesetz – BMG), the fines and administrative offences related to registration and data accuracy obligations are structured as follows:
+
+### Fines for Non-Compliance and Administrative Offences
+
+Under German registration law, failing to meet registration, update, or data accuracy verification requirements is classified as an administrative offence. The penalties vary significantly depending on the nature of the violation:
+
+*   **Fines up to 50,000 Euros:** This maximum penalty is imposed on anyone who, contrary to regulations, offers a residential address or makes one available to another person (in violation of Section 19 (6)).
+*   **Fines up to 1,000 Euros:** This penalty applies to various other administrative infractions. These include:
+    *   Failing to register, registering incorrectly, or not registering in a timely manner.
+    *   Failing to deregister or not doing so in a timely manner (e.g., when moving abroad).
+    *   Failing to confirm that a person has moved in, or issuing a confirmation incorrectly or late.
+    *   Failing to sign, retain, or present required special registration forms, or failing to store the necessary registration data for at least one year.
+
+In summary, while severe fraudulent actions regarding residential addresses can lead to substantial fines of up to 50,000 euros, general negligence regarding timely and accurate registration, deregistration, or form submission is punishable by a fine of up to 1,000 euros.
+
+**Source:** 
+*   **Division:** Division 6 Administrative offences
+*   **Section:** Section 54 Fines
+*   **Source Document:** Federal Act on Registration (Bundesmeldegesetz – BMG)
+
+***
+
+Please let me know if there is anything else you need to know or if you have further questions regarding German registration laws. I would be happy to help!",[],"[22, 51, 41, 56, 50]",0.5286745999474078,2.5539770999457687,3.0826516998931766,1,2,1,5,1,Answer hallucinates specific fines not present in the provided context.,,,,,,,,,,,,,
+What must the registration authority verify before providing information to the data subject under Article 15?,direct,The authority must verify the data subject’s identity.,"Based on the provided context, the documents do not contain information regarding what the registration authority must verify under ""Article 15"" before providing information to the data subject. 
+
+Sorry, the information requested is not available in the source documents.
+
+If you have any other questions regarding German registration laws, such as electronic registration, data validation, or how to obtain a registration certificate, please feel free to ask. I would be more than happy to help you!",[8],"[51, 41, 23, 16, 25]",0.7455514001194388,1.1269288000185043,1.872480200137943,1,2,5,5,1,Context lacks Article 15 info; answer fails to identify identity verification requirement.,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"What security measures are required for electronic provision of information to a data subject, and is data processing restricted while the data’s accuracy is being verified?",multi_chunk,"Encryption and authentication measures required by Articles 24, 25 and 32 of the GDPR must be implemented, and data processing is not restricted while accuracy is being verified.","Based on the provided context from the Federal Act on Registration (Bundesmeldegesetz – BMG), here is a structured summary of the security measures required for the electronic provision of information to a data subject, followed by the rules regarding restrictions on data processing.
+
+### Security Measures for Electronic Provision of Information
+
+* **Encryption:** When basic information is provided from the population register via the Internet using automated retrieval, the response to the person or body requesting the information must be sent in encrypted form.
+* **Return, Deletion, or Destruction of Data:** Any data storage media provided to the registration authority, or data transferred to it for processing automated requests, must be returned, deleted, or destroyed without delay once the request has been processed.
+* **Portals and Public Approval:** If information is provided via Internet portals that are not operated under public law, these portals require approval by the responsible authority. Such portals are tasked with registering those requesting information, receiving and forwarding requests, and safeguarding data security.
+
+### Restrictions on Data Processing
+
+* **Purpose Limitation:** Recipients are restricted from processing transferred or forwarded data and remarks for any purposes other than those for which the data were originally transferred, unless otherwise specified by law.
+* **Protection of Legitimate Interests:** In cases where a block or conditional block on releasing information has been entered (under Sections 51 and 52), processing the transferred or forwarded data is permissible only if it is guaranteed that the legitimate interests of the data subject will not be harmed. 
+
+*(Note: While the context outlines strict limitations on how transferred data can be processed, it does not explicitly mention restrictions on data processing specifically ""while the data's accuracy is being verified"".)*
+
+***
+
+**Source:** 
+* Federal Act on Registration (Bundesmeldegesetz – BMG) 
+  * *Division 5 Data transfers, Subdivision 2 Information from the population register, Section 49 Automated information from the population register*
+  * *Division 5 Data transfers, Subdivision 1 Data transfers between public bodies, Section 41 Purpose limitation on transferred data and remarks*
+
+***
+
+Please let me know if there is anything else you need to know or if you require further assistance!","[8, 10]","[50, 23, 16, 43, 51]",0.8340735998935997,5.5534540000371635,6.387527599930763,1,3,5,5,1,Context lacks GDPR details; answer misses key points and contradicts reference on processing restrictions.,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+When must data of residents who have moved away or died be deleted according to the law?,direct,"Data not retained under section 13(1) must be deleted 30 days after the resident has moved away and the acknowledgement has been assessed, or after the resident’s death.","According to the **Federal Act on Registration (Bundesmeldegesetz – BMG)**, the deletion of data for residents who have moved away or died is determined by specific timelines based on the type of data stored:
+
+* **Specific Residence and Document Data:** Data referred to in section 3 (1) no. 11 and subsection (2) no. 2 must be deleted at the end of the calendar year following the year in which the resident moved away or died.
+* **Identity Document Data:** Data referred to in section 3 (1) no. 17 must be deleted five years after the expiry of the associated identity document.
+* **Other Resident Data:** Other data of residents who have moved away or died (which are not retained in accordance with the 50-year retention rules under section 13 (1)) must be deleted 30 days after the resident has moved away and the acknowledgement has been assessed, or 30 days after the resident’s death.
+
+### Exceptions to Deletion
+If the data is processed through non-automated means and deletion is either impossible due to the nature of the storage or requires a disproportionately high amount of effort (and the data subject's interest in deletion is negligible), the registration authority is not obligated to delete the personal data. In such cases, restricting the processing of the data takes the place of deletion.
+
+**Source:** 
+* **Federal Act on Registration (Bundesmeldegesetz – BMG)**: Division 2 Rights of protection, Section 14 Deletion of data.
+
+***
+
+Please let me know if there is anything else you need to know or if you have any further questions. I would be happy to help!",[12],"[12, 11, 50, 33, 46]",0.7642671000212431,2.3558104999829084,3.1200776000041515,5,5,4,5,5,Answer is accurate and well-structured. Minor hallucination regarding the 'Exceptions' section not in context.,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0
+What does the registration authority do with data and remarks after the retention period ends and before they are deleted?,multi_chunk,"After the retention period expires, the authority must first offer the data and remarks to the legally designated archives for verification of accuracy; only after this offering can the data be deleted.","According to the provided context, the registration authority has a specific obligation regarding the stored data and remarks before they are deleted after the retention period has ended:
+
+*   **Offer to Archives:** After the expiry of the designated retention period, and before actually deleting the stored data and remarks (which are stored to verify accuracy), the registration authority must offer them to the archives designated by law under the relevant provisions of archival law.
+
+This procedure ensures that historically or legally significant information is evaluated for preservation before permanent deletion takes place.
+
+***
+
+**Source:**
+Federal Act on Registration (Bundesmeldegesetz – BMG)
+*   **Division:** Division 2 Rights of protection
+*   **Section:** Section 16 Offering data to archives
+
+***
+
+Please let me know if there is anything else you need to know or if you have further questions! I am here to help.","[12, 14]","[14, 13, 12, 30, 11]",0.4650438001845032,7.427358000073582,7.892401800258085,5,5,5,5,5,"The answer accurately reflects the context and reference, correctly identifying the archival offering step.",1.0,0.5,1.0,1.0,0.6666666666666666,1.0,0.9197207891481876,1.0,0.4,1.0,0.9197207891481876,1.0,1.0
+What information is included in the written registration certificate?,direct,"It contains family name, given names, the name usually used, doctoral degree, date of birth, and current addresses (principal and secondary residence).","Based on the provided context from the German Federal Act on Registration, here is the structured summary of the information included in a written registration certificate:
+
+By default, a written registration certificate contains the following standard information about the data subject:
+* **Personal Names:** Family name and given names (with an indication of the name usually used)
+* **Academic Titles:** Doctoral degree
+* **Date of Birth**
+* **Addresses:** Current addresses, with a clear indication of which is the principal and which is the secondary residence
+
+Additionally, at the request of the data subject, the registration certificate can also contain further information stored in the registration register. This includes data referred to in section 3 (1) nos. 2, 5 to 16, and 17, along with the official confirmation that no date of death has been stored for the individual. However, even upon request, the blocking code and blocking sum of the national identity card and eID card are strictly excluded from being included in the certificate.
+
+Please let me know if there is anything else you need to know or if you have further questions!
+
+**Source:** Federal Act on Registration (Bundesmeldegesetz – BMG) – Division 3 General registration requirements, Section 18 Registration certificate",[16],"[16, 24, 25, 30, 32]",0.7379399000201374,2.956860000034794,3.6947999000549316,5,5,2,5,4,Answer invents specific section numbers and exclusions not present in the provided context.,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0
+What is the definition of a principal residence for a resident with multiple residences?,direct,The principal residence is the residence used most by the resident.,"Based on the provided context, here is the definition of a principal residence for a resident with multiple residences:
+
+### Definition of a Principal Residence
+
+If a resident has multiple residences in Germany, one of these must be designated as his or her principal residence. Generally, the **principal residence is defined as the residence that is used most by the resident**. Any other residence they maintain is classified as a secondary residence.
+
+Depending on the resident's personal circumstances, specific rules apply to determine which residence is considered the principal one:
+
+*   **Married Residents or Registered Partners:** For a resident who is married or in a life partnership (and does not permanently live separately from their family or partner), the principal residence is the residence used most by the family or life partner.
+*   **Minor Residents:** For a minor, the principal residence is the residence used most by the persons who have the duty of care and custody. If these guardians live separately, the principal residence is the residence of the guardian which is used most by the minor.
+*   **Focus of Personal Relationships:** In cases where there is doubt about which residence is used most, the principal residence is determined to be the one where the resident’s personal relationships are focused.
+*   **Doubtful Status for Couples:** If the residence status of a married resident or life partner cannot be established without doubt, the principal residence reverts to the general definition (the residence used most by the resident).
+*   **Residents with Disabilities:** At the request of a resident living in an institution serving persons with disabilities, their previous principal residence (as defined under the rules for minors) remains their principal residence until they reach the age of 25.
+
+Additionally, when registering, deregistering, or changing residences, residents are required to inform the registration authority of all additional residences they hold in Germany and specify which one is their principal residence.
+
+***
+
+**Source:** Federal Act on Registration (Bundesmeldegesetz – BMG)
+*   **Division:** Division 3 General registration requirements
+*   **Section:** Section 21 Multiple residences & Section 22 Determining the principal residence
+
+Please let me know if there is anything else you need to know or if you have any further questions. I would be happy to help!",[20],"[20, 21, 24, 19, 18]",0.4395876000635326,2.431526599917561,2.8711141999810934,5,5,3,5,5,"Answer includes hallucinated details (disabilities, specific section numbers) not in context.",1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0
+Does a person staying in collective accommodation for compulsory military service need to register after 12 months?,edge_case,"Yes, if the stay exceeds 12 months, the registration requirement applies.","Based on the provided context from the Federal Act on Registration (Bundesmeldegesetz – BMG), here is the answer to your question:
+
+### Registration Requirement for Compulsory Military Service Accommodation
+
+Generally, there are no grounds for a registration requirement if a person who is already registered at a residence in Germany moves into collective accommodation or other officially provided housing to perform compulsory military service (pursuant to the Compulsory Military Service Act). 
+
+However, this exception to the registration requirement does have a time limit:
+* **The 12-Month Rule:** A person is required to register if they reside at the collective accommodation or officially provided housing for **more than 12 months**. 
+
+Therefore, once the stay in the collective accommodation exceeds 12 months, the exemption no longer applies, and the person must register.
+
+***
+
+**Source:**
+* **Act:** Federal Act on Registration (Bundesmeldegesetz – BMG)
+* **Division:** Division 3 General registration requirements
+* **Section:** Section 27 Exceptions to the registration requirement
+
+***
+
+Please let me know if there is anything else you need to know or if you have any further questions. I would be happy to help!",[27],"[27, 29, 32, 30, 15]",0.7817478999495506,30.457271399907768,31.23901929985732,2,5,1,5,5,"Answer correctly states the 12-month rule, but this specific detail is missing from the provided context.",1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0
+"What information must be included on the special registration forms for commercial accommodation, and which authorities are allowed to process this data?",multi_chunk,"The forms must contain date of arrival and planned departure, family name, given names, date of birth, nationalities, address, number and nationality of accompanying foreign nationals, and the passport or passport substitute serial number. The data may be processed by the authorities determined by law and those listed in §34 (4) sentence 1 nos. 1‑5 and 9‑11.","Based on the provided context, here is the information regarding the required content of the special registration forms for commercial accommodation and the authorities permitted to process this data.
+
+### Required Information on Special Registration Forms
+
+According to the law, the registration forms must contain only the following specific data:
+*   Date of arrival and planned departure
+*   Family name and given names
+*   Date of birth
+*   Nationalities
+*   Address
+*   The number of foreign nationals travelling together and their nationality
+*   The serial number of a recognised and valid passport or passport substitute
+*   *If applicable (electronic registration):* The payment method’s specific allocation number if an electronic procedure utilizing a card-bound payment method with Strong Customer Authentication (SCA) is chosen.
+*   *If applicable (local regulations):* Land law may also stipulate that additional data may be collected to process tourist and resort taxes.
+
+Additionally, the accommodation managers must check this information against the guest's identity document. Any discrepancies or the failure to present a valid identity document must be noted directly on the registration form.
+
+### Authorities Allowed to Process the Data
+
+The data collected on these registration forms may be processed by:
+*   The specific authorities determined by law.
+*   The authorities referred to in **section 34 (4) sentence 1 nos. 1 to 5 and 9 to 11**.
+
+These authorities are permitted to process this data when it is necessary to carry out their tasks, as well as for specific purposes such as investigating the fate of missing persons and accident victims, collecting tourist and resort taxes, issuing local guest passes, and compiling accommodation and tourism statistics.
+
+***
+
+**Source:** 
+*   **Division:** Division 4 Special registration requirements
+*   **Section:** Section 30 Special registration forms for commercial accommodation & Section 31 Processing restrictions
+*   **Source Document:** Federal Act on Registration (Bundesmeldegesetz – BMG)
+
+***
+
+Please let me know if you need any further information or if there is anything else I can assist you with. I am here to help!","[30, 31]","[30, 29, 31, 32, 54]",0.6235632000025362,13.104463600087911,13.728026800090447,4,5,2,5,4,Answer hallucinates specific data fields and procedures not present in the truncated retrieved context.,1.0,0.5,1.0,1.0,0.6666666666666666,1.0,0.9197207891481876,1.0,0.4,1.0,0.9197207891481876,1.0,1.0
+Which section is noted as repealed?,specific_detail,Section 58 (repealed).,"Based on the provided context from the Federal Act on Registration (Bundesmeldegesetz – BMG), here is the information regarding the repealed section:
+
+*   **Repealed Section:** Section 58 is noted as repealed.
+
+This information is located in the final provisions of the Act.
+
+**Source:** 
+*   **Division:** Division 7 Other provisions, final provisions
+*   **Section:** Section 58 (repealed)
+*   **Act:** Federal Act on Registration (Bundesmeldegesetz – BMG)
+
+Please let me know if there is anything else you need to know or if you have any further questions!",[60],"[60, 13, 55, 12, 14]",0.5549812999088317,1.2479034999851137,1.8028847998939455,5,5,5,5,5,"The answer is accurate, well-structured, and fully supported by the retrieved context.",1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0
+Within how many weeks must a person deregister after moving out of a residence in Germany?,direct,Two weeks after moving out.,"Based on the provided context, here is the information regarding the deregistration period in Germany:
+
+According to German registration laws, a person who moves out of a residence and does not move into another residence in Germany is required to deregister with the registration authority **within two weeks of moving out**. 
+
+### Key Details Regarding Deregistration:
+* **Timeframe:** Deregistration must occur within two weeks after moving out.
+* **Earliest Deregistration:** Deregistration cannot be completed earlier than one week before moving out.
+* **Database Update:** The population register is updated as of the actual date the resident moves out.
+* **Minors:** If the person moving out is under 16 years of age, the responsibility to deregister lies with the person out of whose residence the minor is moving.
+
+Please let me know if there is anything else you need to know or if you have further questions!
+
+**Source:** Federal Act on Registration (Bundesmeldegesetz – BMG) - Division 3 General registration requirements, Section 17 Registration, deregistration",[15],"[15, 20, 27, 24, 32]",0.28901139996014535,3.4720277001615614,3.7610391001217067,5,5,5,5,5,"The answer is accurate, well-structured, and fully supported by the retrieved context.",1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0
+Within how many weeks must a resident inform the registration authority of a change to their principal residence?,direct,The resident must inform the registration authority within two weeks of the change.,"Based on the provided context from the Federal Act on Registration (Bundesmeldegesetz – BMG), here is the information regarding the timeframe for informing the registration authority of a change to a principal residence:
+
+### Summary of Notification Period for Changing Principal Residence
+
+* **Two-Week Deadline:** A resident is required to inform the responsible registration authority of any change to their principal address within **two weeks** of the change occurring.
+* **Responsible Authority:** This notification must be made specifically to the registration authority that is responsible for the **new principal residence**.
+* **Multiple Residences Requirement:** When registering, deregistering, or changing a principal residence, the resident must also inform the authority of any other additional residences they maintain within Germany and clarify which one serves as their principal residence.
+
+***
+
+**Source:** 
+Federal Act on Registration (Bundesmeldegesetz – BMG)
+* **Division:** Division 3 General registration requirements
+* **Section:** Section 21 Multiple residences
+
+***
+
+Please let me know if there is anything else you need to know or if you have any further questions. I would be happy to help you!",[20],"[20, 15, 32, 24, 33]",0.6221068999730051,1.6898972000926733,2.3120041000656784,5,5,5,5,5,"The answer is accurate, well-structured, and fully supported by the retrieved context.",1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0
+What is the deadline for a person who is not registered at a residence in Germany to register after staying more than three months?,direct,They must register within two weeks after their stay exceeds three months.,"Based on the provided context from the Federal Act on Registration (Bundesmeldegesetz – BMG), here is the information regarding the registration deadline:
+
+### Summary of Registration Deadlines
+
+* **General Rule for Unregistered Individuals:**
+  If a person who is not currently registered at a residence in Germany stays in the country for more than three months, they are required to register with the registration authority. The deadline to complete this registration is **within two weeks** once the three-month stay threshold has been exceeded.
+
+* **Special Environments (Commercial and Institutional Accommodation):**
+  * **Commercial Accommodation:** Anyone not registered in Germany who stays in commercial accommodation (or at commercially operated sites in tents, caravans, motor caravans, or water vessels) must register **within two weeks** as soon as their stay exceeds three months.
+  * **Hospitals and Care Homes:** Anyone not registered in Germany who is admitted to a hospital, care home, or other institution serving persons with disabilities, those in need of care, or for residential education must register **within two weeks** once their stay exceeds three months. 
+  * **Short-term Stays:** Individuals who otherwise live abroad and are not registered in Germany who move into a residence for a temporary stay must also register **within two weeks** after three months have elapsed.
+
+***
+
+**Source:** 
+* Federal Act on Registration (Bundesmeldegesetz – BMG)
+  * Division 3 General registration requirements, Section 27 Exceptions to the registration requirement
+  * Division 4 Special registration requirements, Section 29 Special registration requirement for commercial accommodation
+  * Division 4 Special registration requirements, Section 32 Special registration requirement for hospitals, care homes and similar institutions
+
+***
+
+Please let me know if there is anything else you need to know or if you have further questions regarding German registration laws. I would be happy to help!",[32],"[32, 15, 20, 27, 29]",0.9795170999132097,8.836549000116065,9.816066100029275,5,5,2,5,5,Answer includes specific details and section numbers not present in the provided context.,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0
+"What obligations does a person have when registering, regarding information provision and personal appearance?",multi_chunk,"They must provide the required data listed in section 3 (1) nos. 1‑18 and (2) no. 2 (a‑c) and no. 10, present documents to verify the information, and appear in person at the registration authority.","Based on the provided context from the Federal Act on Registration (Bundesmeldegesetz – BMG), a person required to register has specific obligations regarding cooperation with the registration authority. 
+
+Here is a structured summary of these obligations:
+
+### General Cooperation and Personal Appearance
+* **Information Provision:** At the request of the registration authority, the person required to register must provide all the necessary information needed to keep the population register in good order.
+* **Document Presentation:** The individual is obligated to present the necessary documents required to verify the accuracy of the information provided.
+* **Personal Appearance:** If requested by the registration authority, the person required to register must appear in person at the authority.
+
+### Verification of Transferred Data
+* **Data Verification:** When using a pre-filled registration form (whether provided by the authority or requested electronically), the person required to register is obligated to review the transferred data for accuracy. 
+* **Correction and Completion:** The individual must rectify any inaccurate information and add any missing information.
+* **Signature and Return:** The person must sign the updated, pre-filled registration form and return it to the registration authority responsible for their new place of residence. If an automated population register is used, a physical form is not needed if the person appears in person and confirms the accuracy and completeness of the collected data by signing a printout.
+
+***
+
+**Source:** Federal Act on Registration (Bundesmeldegesetz – BMG) 
+* Division 3 General registration requirements, Section 25 Cooperation by persons required to register
+* Division 3 General registration requirements, Section 23 Fulfilling the general registration requirement
+* Division 3 General registration requirements, Section 23a Electronic registration
+
+Please let me know if there is anything else you need to know or if you have further questions regarding German registration laws. I would be happy to help!","[24, 25]","[25, 32, 22, 23, 16]",0.5890625000465661,2.214864599984139,2.8039271000307053,5,5,4,5,3,Misses specific data list from reference; adds ungrounded details about data verification.,1.0,0.5,1.0,1.0,0.3333333333333333,0.5,0.6131471927654584,1.0,0.2,0.5,0.6131471927654584,1.0,1.0
+What information is included on the written registration certificate provided to the data subject?,direct,"It contains the family name, given names, the name usually used, doctoral degree, date of birth, and current addresses (principal and secondary residence).","Based on the provided context, here is the information regarding what is included on a written registration certificate:
+
+### Summary of the Written Registration Certificate
+At the request of the data subject, the registration authority will provide a written or electronic registration certificate. 
+
+To obtain this certificate, the person required to register must transfer certain verification data to the registration authority, specifically their:
+* Family name
+* Given names
+* Date of birth
+* Address of their current principal or sole residence
+
+### Mandatory Data Included
+By default, the standard registration certificate must contain the following details:
+* Family name
+* Given names (with an indication of the name usually used)
+* Doctoral degree
+* Date of birth
+* Current addresses (indicating which is the principal and which is the secondary residence)
+
+### Optional Data Included
+At the request of the data subject, the registration certificate may also include additional data (as referred to in section 3 (1) nos. 2, 5 to 16, and 17 of the Act). However, this additional information **excludes** the blocking code and blocking sum of the national identity card and eID card. It can, however, include confirmation of the fact that no date of death has been stored for the individual.
+
+***
+
+**Source:** Federal Act on Registration (Bundesmeldegesetz – BMG) 
+* **Division:** Division 3 General registration requirements
+* **Section:** Section 18 Registration certificate
+
+Please let me know if there is anything else you need to know or if you have further questions!",[16],"[16, 24, 17, 23, 32]",0.25253690010868013,2.109273500042036,2.3618104001507163,5,5,4,5,5,"Answer is accurate and well-structured, though it adds minor details not explicitly in the provided snippet.",1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0

@@ -1,0 +1,53 @@
+[
+  {
+    "inputs":{
+      "question":"Within how many weeks must a person deregister after moving out of a residence in Germany?"
+    },
+    "ground_truth":"Two weeks after moving out.",
+    "question_type":"direct",
+    "source_chunks":[
+      15
+    ]
+  },
+  {
+    "inputs":{
+      "question":"Within how many weeks must a resident inform the registration authority of a change to their principal residence?"
+    },
+    "ground_truth":"The resident must inform the registration authority within two weeks of the change.",
+    "question_type":"direct",
+    "source_chunks":[
+      20
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What is the deadline for a person who is not registered at a residence in Germany to register after staying more than three months?"
+    },
+    "ground_truth":"They must register within two weeks after their stay exceeds three months.",
+    "question_type":"direct",
+    "source_chunks":[
+      32
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What obligations does a person have when registering, regarding information provision and personal appearance?"
+    },
+    "ground_truth":"They must provide the required data listed in section 3 (1) nos. 1\u201118 and (2) no. 2 (a\u2011c) and no. 10, present documents to verify the information, and appear in person at the registration authority.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      24,
+      25
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What information is included on the written registration certificate provided to the data subject?"
+    },
+    "ground_truth":"It contains the family name, given names, the name usually used, doctoral degree, date of birth, and current addresses (principal and secondary residence).",
+    "question_type":"direct",
+    "source_chunks":[
+      16
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "inputs":{
+      "question":"According to the Act, what is the primary purpose of registration authorities registering persons residing in their jurisdiction?"
+    },
+    "ground_truth":"To identify residents and their places of residence and verify this information.",
+    "question_type":"direct",
+    "source_chunks":[
+      1
+    ]
+  },
+  {
+    "inputs":{
+      "question":"Which legal provision designates registration authorities and what are their main tasks?"
+    },
+    "ground_truth":"They are designated by federal state law and must register residents, keep population registers, provide information to other bodies, and process personal data only as permitted by law.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      0,
+      1
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What penalty does the Act impose on a registration authority that fails to update a resident's address within 24 hours?"
+    },
+    "ground_truth":"The information is not available in the provided document.",
+    "question_type":"unanswerable",
+    "source_chunks":[
+
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What confidentiality obligations do employees of registration authorities have regarding personal data?"
+    },
+    "ground_truth":"They may not process personal data without authorization, must be informed of their obligations, agree in writing to keep registration data confidential, and this duty continues after employment ends.",
+    "question_type":"direct",
+    "source_chunks":[
+      6
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What fines are imposed for non\u2011compliance with the data accuracy obligations in the population register?"
+    },
+    "ground_truth":"The document does not provide information about fines for non\u2011compliance with data accuracy obligations.",
+    "question_type":"unanswerable",
+    "source_chunks":[
+
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What must the registration authority verify before providing information to the data subject under Article 15?"
+    },
+    "ground_truth":"The authority must verify the data subject\u2019s identity.",
+    "question_type":"direct",
+    "source_chunks":[
+      8
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What security measures are required for electronic provision of information to a data subject, and is data processing restricted while the data\u2019s accuracy is being verified?"
+    },
+    "ground_truth":"Encryption and authentication measures required by Articles 24, 25 and 32 of the GDPR must be implemented, and data processing is not restricted while accuracy is being verified.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      8,
+      10
+    ]
+  },
+  {
+    "inputs":{
+      "question":"When must data of residents who have moved away or died be deleted according to the law?"
+    },
+    "ground_truth":"Data not retained under section 13(1) must be deleted 30 days after the resident has moved away and the acknowledgement has been assessed, or after the resident\u2019s death.",
+    "question_type":"direct",
+    "source_chunks":[
+      12
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What does the registration authority do with data and remarks after the retention period ends and before they are deleted?"
+    },
+    "ground_truth":"After the retention period expires, the authority must first offer the data and remarks to the legally designated archives for verification of accuracy; only after this offering can the data be deleted.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      12,
+      14
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What information is included in the written registration certificate?"
+    },
+    "ground_truth":"It contains family name, given names, the name usually used, doctoral degree, date of birth, and current addresses (principal and secondary residence).",
+    "question_type":"direct",
+    "source_chunks":[
+      16
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What is the definition of a principal residence for a resident with multiple residences?"
+    },
+    "ground_truth":"The principal residence is the residence used most by the resident.",
+    "question_type":"direct",
+    "source_chunks":[
+      20
+    ]
+  },
+  {
+    "inputs":{
+      "question":"Does a person staying in collective accommodation for compulsory military service need to register after 12 months?"
+    },
+    "ground_truth":"Yes, if the stay exceeds 12 months, the registration requirement applies.",
+    "question_type":"edge_case",
+    "source_chunks":[
+      27
+    ]
+  },
+  {
+    "inputs":{
+      "question":"What information must be included on the special registration forms for commercial accommodation, and which authorities are allowed to process this data?"
+    },
+    "ground_truth":"The forms must contain date of arrival and planned departure, family name, given names, date of birth, nationalities, address, number and nationality of accompanying foreign nationals, and the passport or passport substitute serial number. The data may be processed by the authorities determined by law and those listed in \u00a734\u202f(4) sentence\u202f1 nos.\u202f1\u20115 and\u202f9\u201111.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      30,
+      31
+    ]
+  },
+  {
+    "inputs":{
+      "question":"Which section is noted as repealed?"
+    },
+    "ground_truth":"Section 58 (repealed).",
+    "question_type":"specific_detail",
+    "source_chunks":[
+      60
+    ]
+  }
+]

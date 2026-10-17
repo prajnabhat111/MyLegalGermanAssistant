@@ -1,0 +1,216 @@
+[
+  {
+    "inputs":{
+      "question":"According to the Act, what is the primary purpose of registration authorities registering persons residing in their jurisdiction?"
+    },
+    "ground_truth":"To identify residents and their places of residence and verify this information.",
+    "question_type":"direct",
+    "source_chunks":[
+      1
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"Which legal provision designates registration authorities and what are their main tasks?"
+    },
+    "ground_truth":"They are designated by federal state law and must register residents, keep population registers, provide information to other bodies, and process personal data only as permitted by law.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      0,
+      1
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"What penalty does the Act impose on a registration authority that fails to update a resident's address within 24 hours?"
+    },
+    "ground_truth":"The information is not available in the provided document.",
+    "question_type":"unanswerable",
+    "source_chunks":[
+
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"What confidentiality obligations do employees of registration authorities have regarding personal data?"
+    },
+    "ground_truth":"They may not process personal data without authorization, must be informed of their obligations, agree in writing to keep registration data confidential, and this duty continues after employment ends.",
+    "question_type":"direct",
+    "source_chunks":[
+      6
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"What fines are imposed for non‑compliance with the data accuracy obligations in the population register?"
+    },
+    "ground_truth":"The document does not provide information about fines for non‑compliance with data accuracy obligations.",
+    "question_type":"unanswerable",
+    "source_chunks":[
+
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"What must the registration authority verify before providing information to the data subject under Article 15?"
+    },
+    "ground_truth":"The authority must verify the data subject’s identity.",
+    "question_type":"direct",
+    "source_chunks":[
+      8
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"What security measures are required for electronic provision of information to a data subject, and is data processing restricted while the data’s accuracy is being verified?"
+    },
+    "ground_truth":"Encryption and authentication measures required by Articles 24, 25 and 32 of the GDPR must be implemented, and data processing is not restricted while accuracy is being verified.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      8,
+      10
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"When must data of residents who have moved away or died be deleted according to the law?"
+    },
+    "ground_truth":"Data not retained under section 13(1) must be deleted 30 days after the resident has moved away and the acknowledgement has been assessed, or after the resident’s death.",
+    "question_type":"direct",
+    "source_chunks":[
+      12
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"What does the registration authority do with data and remarks after the retention period ends and before they are deleted?"
+    },
+    "ground_truth":"After the retention period expires, the authority must first offer the data and remarks to the legally designated archives for verification of accuracy; only after this offering can the data be deleted.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      12,
+      14
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"What information is included in the written registration certificate?"
+    },
+    "ground_truth":"It contains family name, given names, the name usually used, doctoral degree, date of birth, and current addresses (principal and secondary residence).",
+    "question_type":"direct",
+    "source_chunks":[
+      16
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"What is the definition of a principal residence for a resident with multiple residences?"
+    },
+    "ground_truth":"The principal residence is the residence used most by the resident.",
+    "question_type":"direct",
+    "source_chunks":[
+      20
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"Does a person staying in collective accommodation for compulsory military service need to register after 12 months?"
+    },
+    "ground_truth":"Yes, if the stay exceeds 12 months, the registration requirement applies.",
+    "question_type":"edge_case",
+    "source_chunks":[
+      27
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"What information must be included on the special registration forms for commercial accommodation, and which authorities are allowed to process this data?"
+    },
+    "ground_truth":"The forms must contain date of arrival and planned departure, family name, given names, date of birth, nationalities, address, number and nationality of accompanying foreign nationals, and the passport or passport substitute serial number. The data may be processed by the authorities determined by law and those listed in §34 (4) sentence 1 nos. 1‑5 and 9‑11.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      30,
+      31
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"Which section is noted as repealed?"
+    },
+    "ground_truth":"Section 58 (repealed).",
+    "question_type":"specific_detail",
+    "source_chunks":[
+      60
+    ],
+    "source_run_id":"6f5cc61a3fb0427c8101304b29107c4e"
+  },
+  {
+    "inputs":{
+      "question":"Within how many weeks must a person deregister after moving out of a residence in Germany?"
+    },
+    "ground_truth":"Two weeks after moving out.",
+    "question_type":"direct",
+    "source_chunks":[
+      15
+    ],
+    "source_run_id":"95de2e66b14b4350929b1f035312e118"
+  },
+  {
+    "inputs":{
+      "question":"Within how many weeks must a resident inform the registration authority of a change to their principal residence?"
+    },
+    "ground_truth":"The resident must inform the registration authority within two weeks of the change.",
+    "question_type":"direct",
+    "source_chunks":[
+      20
+    ],
+    "source_run_id":"95de2e66b14b4350929b1f035312e118"
+  },
+  {
+    "inputs":{
+      "question":"What is the deadline for a person who is not registered at a residence in Germany to register after staying more than three months?"
+    },
+    "ground_truth":"They must register within two weeks after their stay exceeds three months.",
+    "question_type":"direct",
+    "source_chunks":[
+      32
+    ],
+    "source_run_id":"95de2e66b14b4350929b1f035312e118"
+  },
+  {
+    "inputs":{
+      "question":"What obligations does a person have when registering, regarding information provision and personal appearance?"
+    },
+    "ground_truth":"They must provide the required data listed in section 3 (1) nos. 1‑18 and (2) no. 2 (a‑c) and no. 10, present documents to verify the information, and appear in person at the registration authority.",
+    "question_type":"multi_chunk",
+    "source_chunks":[
+      24,
+      25
+    ],
+    "source_run_id":"95de2e66b14b4350929b1f035312e118"
+  },
+  {
+    "inputs":{
+      "question":"What information is included on the written registration certificate provided to the data subject?"
+    },
+    "ground_truth":"It contains the family name, given names, the name usually used, doctoral degree, date of birth, and current addresses (principal and secondary residence).",
+    "question_type":"direct",
+    "source_chunks":[
+      16
+    ],
+    "source_run_id":"95de2e66b14b4350929b1f035312e118"
+  }
+]
