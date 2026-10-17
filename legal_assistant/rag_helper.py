@@ -1,11 +1,15 @@
 from langchain_chroma import Chroma
-from models_config import get_embeddings, get_multilingual_model,get_multilingual_embeddings
+from .models_config import (
+    get_embeddings,
+    get_multilingual_embeddings,
+    get_multilingual_model,
+)
 import streamlit as st
 import re
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
 import os
-from prompt_template import USER_PROMPT_TEMPLATE
+from .prompt_template import USER_PROMPT_TEMPLATE
 import mlflow
 
 @st.cache_resource

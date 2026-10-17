@@ -7,7 +7,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from groq import Groq
 
-from ingest import load_data
+from legal_assistant.ingest import load_data
 
 
 # ============================================================

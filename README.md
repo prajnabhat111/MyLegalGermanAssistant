@@ -107,3 +107,23 @@ What happens when correct document is not retreived? fallback stratergy, rewrite
 How to debug a RAG response that looks correct but is actually worng? Query, retreival, reranking, context, generation, validation. 
 
 
+## Running the Project
+
+Run commands from the repository root. Configure `GEMINI_API_KEY`, `QDRANT_URL`, and `QDRANT_API_KEY` in your environment before starting the application.
+
+```powershell
+uv sync
+uv run streamlit run main.py
+```
+
+The main application modules live in `legal_assistant/`; dataset and evaluation workflows live in `scripts/`.
+
+```powershell
+uv run python -m legal_assistant.ingest
+uv run python -m scripts.generate_synthetic_golden_dataset
+uv run python -m scripts.combine_synthetic_dataset
+uv run python -m scripts.mlflow_evaluation
+uv run python -m scripts.register_prompts
+```
+
+

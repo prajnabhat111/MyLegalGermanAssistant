@@ -26,8 +26,8 @@ from google import genai
 from google.genai import types
 from groq import Groq
 
-from ingest import load_data
-from rag_helper import RAGBaseQdrant
+from legal_assistant.ingest import load_data
+from legal_assistant.rag_helper import RAGBaseQdrant
 
 load_dotenv(override=True)
 

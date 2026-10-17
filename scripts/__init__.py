@@ -1,0 +1,1 @@
+"""Command-line workflows for dataset generation and RAG evaluation."""

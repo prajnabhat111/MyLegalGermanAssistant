@@ -1,0 +1,1 @@
+"""German legal information assistant application package."""

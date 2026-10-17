@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+legal_assistant/__init__.py
+legal_assistant/app.py
+legal_assistant/ingest.py
+legal_assistant/mlflow_config.py
+legal_assistant/models_config.py
+legal_assistant/prompt_template.py
+legal_assistant/rag_helper.py
+mylegalgermanassistant.egg-info/PKG-INFO
+mylegalgermanassistant.egg-info/SOURCES.txt
+mylegalgermanassistant.egg-info/dependency_links.txt
+mylegalgermanassistant.egg-info/requires.txt
+mylegalgermanassistant.egg-info/top_level.txt

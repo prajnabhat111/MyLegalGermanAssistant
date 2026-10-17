@@ -3,9 +3,9 @@ import bs4
 from langchain_text_splitters  import HTMLHeaderTextSplitter
 import re 
 import time
-from rag_helper import load_vectorstore, clean_text, load_qdrant
+from .rag_helper import clean_text, load_qdrant, load_vectorstore
 from qdrant_client.models import PointStruct
-from models_config import get_multilingual_embeddings, get_multilingual_model
+from .models_config import get_multilingual_embeddings, get_multilingual_model
 import os
 from dotenv import load_dotenv
 

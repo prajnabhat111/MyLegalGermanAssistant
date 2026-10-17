@@ -1,8 +1,11 @@
 import mlflow
 
-from mlflow_config import (MLflowConfig, ModelRegistryConfig,
-                                  PromptConfig)
-from prompt_template import USER_PROMPT_TEMPLATE
+from legal_assistant.mlflow_config import (
+    MLflowConfig,
+    ModelRegistryConfig,
+    PromptConfig,
+)
+from legal_assistant.prompt_template import USER_PROMPT_TEMPLATE
 
 # ── MLflow setup ────────────────────────────────────────────────────────────
 mlflow.set_tracking_uri(MLflowConfig.TRACKING_URI)
